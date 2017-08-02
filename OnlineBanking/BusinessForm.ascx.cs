@@ -13,7 +13,7 @@ namespace OnlineBanking
     {
         private static readonly LogHelper logger = new LogHelper(LogSystem.CreateTypeContextLogger());
         
-        public string greetingLabel = "Hi Manuel";
+        public string greetingLabel = "Hi Manuel Roman";
 
         [ComponentSetting("Configurable Service", "Services", WellKnownComponent = true)]
         public string GreetingLabel { get { return greetingLabel; } set { greetingLabel = value; } }
